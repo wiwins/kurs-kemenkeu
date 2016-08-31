@@ -1,0 +1,15 @@
+{
+  "name"         : "kurs-kemenkeu",
+  "version"      : "0.0.1",
+  "description"  : "Get Exchange Rate from KEMENKEU",
+  "main"         : "server.js",
+  "author"       : "Wiwins",
+  "scripts"      : {
+    "start": "node server.js"
+  },  
+  "dependencies" : {
+    "express"    : "latest",
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}
