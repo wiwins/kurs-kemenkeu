@@ -56,7 +56,7 @@ app.get('/kurs-komersil', function(req, res){
 });
 
 app.listen(port, function() {
-	console.log('Magic happens on port 8080');
+	console.log('Magic happens on port 8080. Cool!');
 });
 
 
