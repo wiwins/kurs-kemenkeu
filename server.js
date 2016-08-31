@@ -5,7 +5,7 @@ var cheerio = require('cheerio');
 var app     = express();
 var port    = Process.env.PORT || 8080;
 
-app.get('/scrape', function(req, res){
+app.get('/kurs-pajak', function(req, res){
 
 	url = 'http://fiskal.depkeu.go.id/dw-kurs-db.asp';
 	var json = [];
